@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+:root {
+    --primary-color: #f60f20;
+    --secondary-color: #1b206e;
+}
+  
+/* BASE STYLES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p {
+    margin: 20px 0 10px 0; /* top, right, bottom ,left */
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block; /* because by default its displayed inline and we can't add margin to it */
+    background: hsl(356, 93%, 51%);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px  30px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: scale(0.98);
+    transition: transform 0.3s ease-in-out;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.home-content {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+}
+
+.home-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+.navigation {
+    display: none;
+}
+
+
