@@ -5,6 +5,7 @@
 
 
 ## key Points
-Semantic HTML
-Flexbox
-CSS Grid
+* Semantic HTML
+* Flexbox
+* CSS Grid
+* Responsive Design
